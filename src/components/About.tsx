@@ -1,11 +1,11 @@
 const About: React.FC = () => {
 
     return (
-        <section className="my-5 py-5 bg-primary">
-            <h2 className="display-5 text-center text-white mb-4">About me</h2>
+        <section className="py-5 bg-primary" id="about">
+            <h2 className="display-5 text-center text-white py-lg-5">About me</h2>
             <p className="text-center w-50 mx-auto text-white">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
             
-            <div className="row align-items-center gap-5 m-5">
+            <div className="row align-items-center gap-5 py-lg-5 m-5">
 
                 <div className="col-lg-4 mb-1">
                     <div className="d-flex justify-content-center">

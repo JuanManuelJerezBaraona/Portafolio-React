@@ -1,8 +1,7 @@
 const Skills: React.FC = () => {
   return (
-    <section className="m-md-5 pt-3 pb-5">
+    <section className="m-md-5 pt-5 pb-5" id="skills">
         <h2 className="display-5 text-center mb-4">Skills</h2>
-        <p className="text-center w-50 mx-auto mb-5">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
 
         <div className="mx-md-5">
             <div className="d-flex flex-wrap justify-content-center gap-5 rounded shadow-lg p-5 m-5">
