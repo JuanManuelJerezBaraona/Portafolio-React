@@ -9,7 +9,7 @@ const About: React.FC = () => {
 
                 <div className="col-lg-4">
                     <div className="d-flex justify-content-center">
-                        <img className="img-fluid perfil rounded shadow-lg" src="/foto-sobremi.png" alt="imagen ícono" />
+                        <img className="img-fluid perfil rounded shadow-lg" src="/foto-sobremi.png" alt="Profile picture" />
                     </div>
                 </div>
 
@@ -19,7 +19,7 @@ const About: React.FC = () => {
                             <img className="img-fluid rounded logo" src="/desafiolatam.png" alt="imagen ícono" />
                         </div>
                         <h3 className="text-center fs-5 mt-2">Bootcamp Desafío Latam</h3>
-                        <p className="text-center fst-italic mb-0">FullStack Developer.</p>
+                        <p className="text-center fst-italic mb-0">FullStack Developer</p>
                     </div>
 
                     <div className="rounded shadow-lg p-3 mt-3 bg-white">
@@ -27,7 +27,7 @@ const About: React.FC = () => {
                             <img className="img-fluid logo" src="/unab.svg" alt="imagen ícono" />
                         </div>
                         <h3 className="text-center fs-5 mt-2">Universidad Andrés Bello</h3>
-                        <p className="text-center fst-italic mb-0">Biotechnology Engineer.</p>
+                        <p className="text-center fst-italic mb-0">Biotechnology Engineer</p>
                     </div>
                 </div>
 

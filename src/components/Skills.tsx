@@ -1,4 +1,5 @@
 const Skills: React.FC = () => {
+
   return (
     <section className="skills" id="skills">
         <h2 className="display-5 text-center mb-4">Skills</h2>
@@ -103,4 +104,4 @@ const Skills: React.FC = () => {
   )
 }
 
-export default Skills
+export default Skills;
