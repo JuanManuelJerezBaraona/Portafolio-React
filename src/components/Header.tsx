@@ -10,6 +10,10 @@ const Header: React.FC = () => {
         window.open('https://www.linkedin.com/in/juan-manuel-jerez-baraona-b54486274/');
     };
 
+    const openGitHub = () => {
+        window.open('https://github.com/JuanManuelJerezBaraona');
+    };
+
     return (
         <header className="container-xl header">
             <div className="row align-items-center">
@@ -30,7 +34,7 @@ const Header: React.FC = () => {
                     </Button>
                     <div className="d-flex gap-3 mt-3">
                         <img src="./public/linkedin.png" alt="LinkedIn profile" className="icon cursor" onClick={openLinkedIn}/>
-                        <img src="./public/github.png" alt="GitHub profile" className="icon" onClick="openNewTab('https://github.com/JuanManuelJerezBaraona')"/>
+                        <img src="./public/github.png" alt="GitHub profile" className="icon cursor" onClick={openGitHub}/>
                     </div>
                 </div>
 
