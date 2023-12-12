@@ -1,0 +1,12 @@
+@use '../custom' as *;
+
+.perfil {
+    width: 20rem;
+    @include media-breakpoint-up(md) {
+        width: 25rem;
+    }
+}
+
+.logo {
+    width: 4rem;
+}

@@ -1,0 +1,14 @@
+// Reescribir las variables de Bootstrap
+$morado: #6834a6;
+$negro: #000000;
+
+// Asignar paleta de colores a Bootstrap
+$primary: $morado;
+$dark: $negro;
+
+// Tipografía
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+// Importar Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

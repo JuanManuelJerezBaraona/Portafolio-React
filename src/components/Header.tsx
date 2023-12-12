@@ -1,17 +1,20 @@
 const Header: React.FC = () => {
 
     return (
-        <header className="container-xl header">
+        <header className="container-xl my-md-5 py-md-5 py-lg-5">
             <div className="row align-items-center">
-                <div className="col-md-4 my-lg-5 my-2 mb-md-0">
-                    <img className="img-fluid" src="/public/foto-perfil.png" alt="imagen de perfil" />
+
+                <div className="col-lg-4 my-4 d-flex justify-content-center">
+                    <img className="img-fluid perfil rounded-circle shadow-lg" src="/foto-perfil.png" alt="imagen de perfil" />
                 </div>
-                <div className="col-md-8">
+
+                <div className="col-lg-8 d-flex flex-column align-items-center">
                     <p className="mb-0">Hi, i'm</p>
-                    <h1 className="display-3">Juan Manuel Jerez</h1>
+                    <h1 className="display-4">Juan Manuel Jerez</h1>
                     <p className="fs-3">FullStack Developer</p>
-                    <a className="btn btn-danger" href="#">Download CV</a>
+                    <a className="btn btn-primary shadow-lg" href="#">Download CV</a>
                 </div>
+
             </div>
         </header>
     );
