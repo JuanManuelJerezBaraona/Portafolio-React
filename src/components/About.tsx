@@ -2,7 +2,7 @@ const About: React.FC = () => {
 
     return (
         <section className="my-5 py-5 bg-primary">
-            <h2 className="display-5 text-center text-white">About me</h2>
+            <h2 className="display-5 text-center text-white mb-4">About me</h2>
             <p className="text-center w-50 mx-auto text-white">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
             
             <div className="row align-items-center gap-5 m-5">
