@@ -1,6 +1,6 @@
 const Skills: React.FC = () => {
   return (
-    <section className="m-md-5 pt-5 pb-5" id="skills">
+    <section className="skills" id="skills">
         <h2 className="display-5 text-center mb-4">Skills</h2>
 
         <div className="mx-md-5">

@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavigationBar: React.FC = () => {
 
   return (
-    <Navbar expand="lg" className="bg-primary mb-5" id="home">
+    <Navbar expand="lg" className="bg-primary" id="home">
         <Container>
             <Navbar.Brand href="#home" className='text-white'>Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>

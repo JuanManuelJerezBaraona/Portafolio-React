@@ -11864,6 +11864,44 @@ textarea.form-control-lg {
   }
 }
 
+.header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+@media (min-width: 768px) {
+  .header {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.skills {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .skills {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .skills {
+    padding-top: 4rem;
+    padding-bottom: 20rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
 .logo {
   width: 3rem;
 }

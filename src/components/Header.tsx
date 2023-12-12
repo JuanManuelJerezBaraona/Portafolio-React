@@ -1,10 +1,10 @@
 const Header: React.FC = () => {
 
     return (
-        <header className="container pt-lg-5 vh-100">
-            <div className="row align-items-center mt-5">
+        <header className="container-xl header">
+            <div className="row align-items-center">
 
-                <div className="col-lg-4 my-5 d-flex justify-content-center">
+                <div className="col-lg-4 d-flex justify-content-center mb-3">
                     <img className="img-fluid perfil rounded-circle shadow-lg" src="/foto-perfil.png" alt="imagen de perfil" />
                 </div>
 
