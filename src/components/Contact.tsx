@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="contact-container mx-auto d-flex flex-column justify-content-center align-items-start rounded shadow-lg gap-4 p-5">
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
-                        <img src="./public/email.png" alt="Email logo" className="logo cursor rounded-circle"/>
+                        <img src="./public/email.png" alt="Email logo" className="logo rounded-circle"/>
                     </div>
                     <div>
                         <p className="mb-0">jjerezbaraona@gmail.com</p>
@@ -15,7 +15,7 @@ const Contact = () => {
 
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
-                        <img src="./public/whatsapp.svg" alt="WhatsApp logo" className="logo cursor"/>
+                        <img src="./public/whatsapp.svg" alt="WhatsApp logo" className="logo"/>
                     </div>
                     <div>
                         <p className="mb-0">+569 8360 1614</p>
@@ -24,7 +24,7 @@ const Contact = () => {
 
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
-                        <img src="./public/gps.svg" alt="GPS logo" className="logo cursor rounded-circle"/>
+                        <img src="./public/gps.svg" alt="GPS logo" className="logo rounded-circle"/>
                     </div>
                     <div>
                         <p className="mb-0">Santiago, Chile</p>
