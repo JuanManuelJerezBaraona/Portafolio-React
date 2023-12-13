@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap"
 const Projects = () => {
 
   return (
-    <main className="container-xl projects">
+    <main className="container-xl projects" id="projects">
         <h2 className="display-5 text-center mb-4">Projects</h2>
 
         <div className="row align-items-center my-4 flex-lg-row">
