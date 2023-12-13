@@ -11,7 +11,7 @@
     }
     @include media-breakpoint-up(lg) {
         padding-top: 6rem;
-        padding-bottom: 22rem;
+        padding-bottom: 10rem;
     }
 }
 
@@ -22,8 +22,4 @@
     @include media-breakpoint-up(md) {
         width: 30rem;
     }
-}
-
-.email-icon {
-    height: 2.5rem;
 }
