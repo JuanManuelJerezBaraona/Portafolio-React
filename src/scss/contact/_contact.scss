@@ -23,3 +23,10 @@
         width: 30rem;
     }
 }
+
+.underlined {
+    text-decoration: none;
+}
+.underlined:hover {
+    text-decoration: underline;
+}

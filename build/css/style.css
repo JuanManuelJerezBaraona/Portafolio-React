@@ -3726,7 +3726,7 @@ textarea.form-control-lg {
 }
 
 .nav {
-  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
@@ -11961,6 +11961,14 @@ body {
   .contact-container {
     width: 30rem;
   }
+}
+
+.underlined {
+  text-decoration: none;
+}
+
+.underlined:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

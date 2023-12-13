@@ -15,15 +15,6 @@ const Contact = () => {
 
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
-                        <img src="./public/linkedin.png" alt="LinkedIn logo" className="logo cursor rounded-circle"/>
-                    </div>
-                    <div>
-                        <p className="mb-0">LinkedIn</p>
-                    </div>
-                </div>
-
-                <div className="d-flex justify-content-center align-items-center gap-2">
-                    <div className="justify-content-center">
                         <img src="./public/whatsapp.svg" alt="WhatsApp logo" className="logo cursor"/>
                     </div>
                     <div>

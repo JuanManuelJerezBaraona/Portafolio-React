@@ -10,5 +10,8 @@ $primary: $morado;
 $display-font-weight: 900;
 $headings-font-weight: 700;
 
+// Nav Link
+$nav-link-padding-x: 0;
+
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
