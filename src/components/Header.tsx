@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 const Header: React.FC = () => {
 
     const downloadCV = () => {
-        window.open('./public/CV-Juan-Manuel-Jerez-Baraona.pdf');
+        window.open('./CV-Juan-Manuel-Jerez-Baraona.pdf');
     };
 
     const openLinkedIn = () => {
