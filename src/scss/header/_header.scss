@@ -25,9 +25,13 @@
 }
 
 .logo {
-    width: 3rem;
+    width: 2rem;
 }
 
 .cursor {
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.cursor:hover {
+    transform: scale(1.2);
 }
