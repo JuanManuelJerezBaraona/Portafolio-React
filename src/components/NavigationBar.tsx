@@ -14,7 +14,7 @@ const NavigationBar: React.FC = () => {
                 <Nav.Link href="#about" className='text-white'>About me</Nav.Link>
                 <Nav.Link href="#skills" className='text-white'>Skills</Nav.Link>
                 <Nav.Link href="#projects" className='text-white'>Projects</Nav.Link>
-                <Nav.Link href="#link" className='text-white'>Contact</Nav.Link>
+                <Nav.Link href="#contact" className='text-white'>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

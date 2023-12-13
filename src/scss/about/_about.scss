@@ -1,0 +1,10 @@
+@use '../custom' as *;
+
+.about-container {
+    @include media-breakpoint-up(sm) {
+        
+    }
+    @include media-breakpoint-up(md) {
+        width: 30rem;
+    }
+}

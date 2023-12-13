@@ -1,11 +1,11 @@
 const Skills: React.FC = () => {
 
     return (
-        <section className="skills" id="skills">
+        <section className="skills mt-5 m-4 m-md-5" id="skills">
             <h2 className="display-5 text-center mb-4">Skills</h2>
 
             <div className="mx-md-5">
-                <div className="d-flex flex-wrap justify-content-center gap-5 rounded shadow-lg p-5 m-5">
+                <div className="d-flex flex-wrap justify-content-center gap-5 rounded shadow-lg p-5 ">
 
                     <article>
                         <div className="d-flex align-items-center gap-2 icon-box">

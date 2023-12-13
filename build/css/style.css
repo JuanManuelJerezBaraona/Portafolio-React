@@ -11897,10 +11897,13 @@ body {
 
 .cursor {
   cursor: pointer;
+}
+
+.zoom {
   transition: transform 0.2s ease-in-out;
 }
 
-.cursor:hover {
+.zoom:hover {
   transform: scale(1.2);
 }
 
@@ -11929,6 +11932,22 @@ body {
 
 .icon {
   width: 3rem;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    width: 30rem;
+  }
+}
+
+.email-icon {
+  height: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

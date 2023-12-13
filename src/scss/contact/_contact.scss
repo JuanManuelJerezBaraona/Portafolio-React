@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+.contact-container {
+    @include media-breakpoint-up(sm) {
+        
+    }
+    @include media-breakpoint-up(md) {
+        width: 30rem;
+    }
+}
+
+.email-icon {
+    height: 2.5rem;
+}

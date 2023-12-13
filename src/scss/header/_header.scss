@@ -36,8 +36,12 @@ body {
 
 .cursor {
     cursor: pointer;
+}
+
+.zoom {
     transition: transform 0.2s ease-in-out;
 }
-.cursor:hover {
+.zoom:hover {
     transform: scale(1.2);
 }
+
