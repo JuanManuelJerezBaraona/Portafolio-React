@@ -2,12 +2,12 @@
 
 .skills {
     @include media-breakpoint-up(xs) {
-        padding-top: 3rem;
+        padding-top: 2rem;
         padding-bottom: 3rem;
     }
     @include media-breakpoint-up(md) {
         padding-top: 3rem;
-        padding-bottom: 14rem;
+        padding-bottom: 10rem;
     }
     @include media-breakpoint-up(lg) {
         padding-top: 4rem;

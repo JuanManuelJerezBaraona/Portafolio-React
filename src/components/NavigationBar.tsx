@@ -8,7 +8,7 @@ const NavigationBar: React.FC = () => {
     <Navbar expand="lg" className="bg-primary" id="home">
         <Container>
             <Navbar.Brand href="#home" className='text-white'>Portfolio</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light"/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
                 <Nav.Link href="#about" className='text-white'>About me</Nav.Link>

@@ -11865,10 +11865,14 @@ textarea.form-control-lg {
 }
 
 .header {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-top: 10rem;
+  padding-top: 7rem;
   padding-bottom: 10rem;
+}
+@media (min-width: 576px) {
+  .header {
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+  }
 }
 @media (min-width: 768px) {
   .header {
@@ -11897,13 +11901,13 @@ textarea.form-control-lg {
 }
 
 .skills {
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
 }
 @media (min-width: 768px) {
   .skills {
     padding-top: 3rem;
-    padding-bottom: 14rem;
+    padding-bottom: 10rem;
   }
 }
 @media (min-width: 992px) {

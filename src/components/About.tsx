@@ -1,9 +1,9 @@
 const About: React.FC = () => {
 
     return (
-        <section className="pb-5 pt-5" id="about">
+        <section className="pb-5 pt-3 pt-lg-5" id="about">
             <h2 className="display-5 text-center mb-3 mb-lg-5">About me</h2>
-            <p className="text-center">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
+            <p className="text-center w-50 mx-auto">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
 
             <div className="row align-items-center gap-5 py-lg-5 m-5">
 

@@ -8,10 +8,12 @@
 }
 
 .header {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     @include media-breakpoint-up(xs) {
-        padding-top: 10rem;
+        padding-top: 7rem;
+        padding-bottom: 10rem;
+    }
+    @include media-breakpoint-up(sm) {
+        padding-top: 9rem;
         padding-bottom: 10rem;
     }
     @include media-breakpoint-up(md) {
