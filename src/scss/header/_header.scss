@@ -1,5 +1,9 @@
 @use '../custom' as *;
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .perfil {
     width: 20rem;
     @include media-breakpoint-up(md) {

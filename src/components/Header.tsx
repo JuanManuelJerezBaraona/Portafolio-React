@@ -27,7 +27,7 @@ const Header: React.FC = () => {
                     <h1 className="display-4">Juan Manuel Jerez</h1>
                     <p className="fs-3">FullStack Developer</p>
                     <Button 
-                        className="btn btn-primary shadow-lg" 
+                        className="btn btn-dark shadow-lg" 
                         onClick={downloadCV}
                     >
                     Download CV

@@ -27,7 +27,7 @@ const Projects = () => {
                     <p className="text-center mt-4 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vero maiores fugit quas, nisi quia voluptatibus voluptates tempore, quae eligendi quaerat at maxime a reprehenderit odio. Quos at praesentium quas?</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
-                            className="btn btn-primary shadow-lg"
+                            className="btn btn-dark shadow-lg"
                             onClick={openSuperCBD}
                         >
                             See more
@@ -45,7 +45,7 @@ const Projects = () => {
                     <p className="text-center mt-4 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vero maiores fugit quas, nisi quia voluptatibus voluptates tempore, quae eligendi quaerat at maxime a reprehenderit odio. Quos at praesentium quas?</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
-                            className="btn btn-primary shadow-lg"
+                            className="btn btn-dark shadow-lg"
                             onClick={openControlaTuBolsillo}
                         >
                             See more
@@ -63,7 +63,7 @@ const Projects = () => {
                     <p className="text-center mt-4 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vero maiores fugit quas, nisi quia voluptatibus voluptates tempore, quae eligendi quaerat at maxime a reprehenderit odio. Quos at praesentium quas?</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
-                            className="btn btn-primary shadow-lg"
+                            className="btn btn-dark shadow-lg"
                             onClick={openCotizaLasCripto}
                         >
                             See more
