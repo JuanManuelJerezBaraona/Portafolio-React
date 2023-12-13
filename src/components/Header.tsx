@@ -33,8 +33,8 @@ const Header: React.FC = () => {
                     Download CV
                     </Button>
                     <div className="d-flex gap-3 mt-3">
-                        <img src="./public/linkedin.png" alt="LinkedIn profile" className="icon cursor shadow-lg" onClick={openLinkedIn}/>
-                        <img src="./public/github.png" alt="GitHub profile" className="icon cursor shadow-lg" onClick={openGitHub}/>
+                        <img src="./public/linkedin.png" alt="LinkedIn profile" className="icon cursor rounded-circle shadow-lg" onClick={openLinkedIn}/>
+                        <img src="./public/github.png" alt="GitHub profile" className="icon cursor rounded-circle shadow-lg" onClick={openGitHub}/>
                     </div>
                 </div>
 
