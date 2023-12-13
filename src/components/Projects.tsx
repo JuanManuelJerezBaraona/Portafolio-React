@@ -20,7 +20,7 @@ const Projects = () => {
 
             <div className="row align-items-center mb-5 flex-lg-row">
                 <div className="col-lg-6">
-                    <img className="img-fluid" src="/public/supercbd.png" alt="Super CBD image" />
+                    <img className="img-fluid" src="/supercbd.png" alt="Super CBD image" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Super CBD</h2>
@@ -38,7 +38,7 @@ const Projects = () => {
 
             <div className="row align-items-center my-5 flex-lg-row-reverse">
                 <div className="col-lg-6">
-                    <img className="img-fluid" src="/public/controlatubolsillo.png" alt="Controla tu Bolsillo image" />
+                    <img className="img-fluid" src="/controlatubolsillo.png" alt="Controla tu Bolsillo image" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Controla tu Bolsillo</h2>
@@ -56,7 +56,7 @@ const Projects = () => {
 
             <div className="row align-items-center my-4 flex-lg-row">
                 <div className="col-lg-6">
-                    <img className="img-fluid" src="/public/cotizalascripto.png" alt="Cotiza las Cripto image" />
+                    <img className="img-fluid" src="/cotizalascripto.png" alt="Cotiza las Cripto image" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Cotiza las Cripto</h2>
