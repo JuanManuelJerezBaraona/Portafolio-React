@@ -11883,35 +11883,8 @@ textarea.form-control-lg {
   }
 }
 
-.skills {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-@media (min-width: 768px) {
-  .skills {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
-@media (min-width: 992px) {
-  .skills {
-    padding-top: 4rem;
-    padding-bottom: 20rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-}
-
 .logo {
   width: 3rem;
-}
-
-.icon {
-  width: 2rem;
-}
-
-.icon-box {
-  width: 10rem;
 }
 
 .cursor {
