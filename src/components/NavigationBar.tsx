@@ -7,14 +7,13 @@ const NavigationBar: React.FC = () => {
   return (
     <Navbar expand="lg" className="bg-dark" id="home">
         <Container>
-            <Navbar.Brand href="#home" className='text-white'>Portfolio</Navbar.Brand>
+            <Navbar.Brand href="#home" className='text-white'>Juan Manuel Jerez</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light"/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-                <Nav.Link href="#about" className='text-white'>About me</Nav.Link>
-                <Nav.Link href="#skills" className='text-white'>Skills</Nav.Link>
-                <Nav.Link href="#projects" className='text-white'>Projects</Nav.Link>
-                <Nav.Link href="#contact" className='text-white'>Contact</Nav.Link>
+                <Nav.Link href="#projects" className='text-white ms-auto'>Projects</Nav.Link>
+                <Nav.Link href="#skills" className='text-white ms-auto'>Skills</Nav.Link>
+                <Nav.Link href="#contact" className='text-white ms-auto'>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

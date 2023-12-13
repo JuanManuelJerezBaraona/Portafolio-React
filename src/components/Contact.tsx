@@ -1,7 +1,7 @@
 const Contact = () => {
     return (
-        <section className="mx-4" id="contact">
-            <h2 className="display-5 text-center mb-4">Contact me</h2>
+        <section className="contact mx-4" id="contact">
+            <h2 className="display-3 text-center mb-4">Contact me</h2>
 
             <div className="contact-container mx-auto d-flex flex-column flex-md-row justify-content-center rounded shadow-lg gap-4 p-4">
                 <div className="d-flex justify-content-center align-items-center gap-2">

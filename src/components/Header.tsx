@@ -23,9 +23,10 @@ const Header: React.FC = () => {
                 </div>
 
                 <div className="col-lg-8 d-flex flex-column align-items-center">
-                    <p className="mb-0">Hi, i'm</p>
-                    <h1 className="display-4">Juan Manuel Jerez</h1>
-                    <p className="fs-3">FullStack Developer</p>
+                    <p className="mb-1">Hello! I'm</p>
+                    <h1 className="display-3">Juan Manuel Jerez</h1>
+                    <p className="fs-2 mb-2">FullStack Developer.</p>
+                    <p className="text-center">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
                     <Button 
                         className="btn btn-dark shadow-lg" 
                         onClick={downloadCV}

@@ -15,8 +15,8 @@ const Projects = () => {
     };
 
     return (
-        <main className="container-xl projects mt-5" id="projects">
-            <h2 className="display-5 text-center mb-4">Projects</h2>
+        <main className="container-xl projects pt-4 pt-lg-5" id="projects">
+            <h2 className="display-3 text-center mb-4">Projects</h2>
 
             <div className="row align-items-center mb-5 flex-lg-row">
                 <div className="col-lg-6">
