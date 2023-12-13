@@ -11891,4 +11891,31 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
+.skills {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .skills {
+    padding-top: 3rem;
+    padding-bottom: 14rem;
+  }
+}
+@media (min-width: 992px) {
+  .skills {
+    padding-top: 4rem;
+    padding-bottom: 22rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.icon-box {
+  width: 10rem;
+}
+
+.icon {
+  width: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
