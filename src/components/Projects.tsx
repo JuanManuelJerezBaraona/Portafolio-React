@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Super CBD</h2>
-                    <p className="text-center mt-4 mb-0">SuperCBD is an online platform that offers detailed information about CBD products and provides an intuitive shopping experience for users interested in CBD-based wellness products.</p>
+                    <p className="text-center mt-4 mb-0">E-commerce of CBD products with an optimized shopping cart, various payment methods, account creation functionality for customization, and a robust database that supports the comprehensive management of the platform, offering customers a secure and complete shopping experience.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark shadow-lg"
