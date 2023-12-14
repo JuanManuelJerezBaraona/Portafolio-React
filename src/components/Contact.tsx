@@ -15,10 +15,10 @@ const Contact = () => {
 
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
-                        <img src="./whatsapp.svg" alt="WhatsApp logo" className="logo"/>
+                        <a href="https://wa.me/56983601614" target="_blank"><img src="./whatsapp.svg" alt="WhatsApp logo" className="logo"/></a>
                     </div>
                     <div>
-                        <p className="mb-0">+569 8360 1614</p>
+                        <a href="https://wa.me/56983601614" target="_blank" className="underlined">+569 8360 1614</a>
                     </div>
                 </div>
 

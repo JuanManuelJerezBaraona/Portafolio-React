@@ -11869,7 +11869,7 @@ body {
 }
 
 .header {
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 9rem;
 }
 @media (min-width: 576px) {
@@ -11965,6 +11965,7 @@ body {
 
 .underlined {
   text-decoration: none;
+  color: inherit;
 }
 
 .underlined:hover {

@@ -13,7 +13,7 @@ body {
 
 .header {
     @include media-breakpoint-up(xs) {
-        padding-top: 4rem;
+        padding-top: 2rem;
         padding-bottom: 9rem;
     }
     @include media-breakpoint-up(sm) {
