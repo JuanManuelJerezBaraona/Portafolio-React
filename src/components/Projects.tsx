@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Super CBD</h2>
-                    <p className="text-center mt-4 mb-0">SuperCBD es una plataforma online que ofrece información detallada sobre productos de CBD y proporciona una experiencia de compra intuitiva para los usuarios interesados en productos de bienestar basados en CBD.</p>
+                    <p className="text-center mt-4 mb-0">SuperCBD is an online platform that offers detailed information about CBD products and provides an intuitive shopping experience for users interested in CBD-based wellness products.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark shadow-lg"
@@ -42,7 +42,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Controla tu Bolsillo</h2>
-                    <p className="text-center mt-4 mb-0">Creada con React-Vite y aprovechando Hooks, como useState y useEffect. Incorpora modal y local storage para una experiencia eficiente de gestión de gastos. Destaco habilidades en React, manejo de estado, y optimización del rendimiento en este proyecto financiero.</p>
+                    <p className="text-center mt-4 mb-0">Built with React-Vite and leveraging Hooks, such as useState and useEffect. Incorporates modal and local storage for an efficient expense management experience. I highlight React skills, state management, and performance optimization in this financial project.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark shadow-lg"
@@ -60,7 +60,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-6">
                     <h2 className="text-center fs-1">Cotiza las Cripto</h2>
-                    <p className="text-center mt-4 mb-0">Fue desarrollado con React-Vite y Styled Components, integrando dos APIs para mostrar en tiempo real datos de criptomonedas y tasas de cambio. Destaca mi habilidad en tecnologías modernas y en la gestión eficiente de datos financieros, con una interfaz atractiva y óptimo rendimiento.</p>
+                    <p className="text-center mt-4 mb-0">It was developed with React-Vite and Styled Components, integrating two APIs to display real-time cryptocurrency and exchange rate data. It highlights my expertise in modern technologies and efficient financial data management, with an attractive interface and optimal performance.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark shadow-lg"
