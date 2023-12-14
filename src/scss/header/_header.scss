@@ -5,8 +5,13 @@ body {
 }
 
 .perfil {
-    width: 20rem;
+    @include media-breakpoint-up(xs) {
+        width: 15rem;
+    }
     @include media-breakpoint-up(md) {
+        width: 20rem;
+    }
+    @include media-breakpoint-up(lg) {
         width: 25rem;
     }
 }
@@ -16,13 +21,9 @@ body {
         padding-top: 2rem;
         padding-bottom: 9rem;
     }
-    @include media-breakpoint-up(sm) {
-        padding-top: 12rem;
-        padding-bottom: 10rem;
-    }
     @include media-breakpoint-up(md) {
-        padding-top: 11rem;
-        padding-bottom: 11rem;
+        padding-top: 10rem;
+        padding-bottom: 8rem;
     }
     @include media-breakpoint-up(lg) {
         padding-top: 12rem;

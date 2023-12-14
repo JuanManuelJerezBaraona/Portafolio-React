@@ -11860,9 +11860,14 @@ body {
 }
 
 .perfil {
-  width: 20rem;
+  width: 15rem;
 }
 @media (min-width: 768px) {
+  .perfil {
+    width: 20rem;
+  }
+}
+@media (min-width: 992px) {
   .perfil {
     width: 25rem;
   }
@@ -11872,16 +11877,10 @@ body {
   padding-top: 2rem;
   padding-bottom: 9rem;
 }
-@media (min-width: 576px) {
-  .header {
-    padding-top: 12rem;
-    padding-bottom: 10rem;
-  }
-}
 @media (min-width: 768px) {
   .header {
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
   }
 }
 @media (min-width: 992px) {
