@@ -6,18 +6,33 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import { useState } from 'react';
+
 const App: React.FC = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+
+    // Añadir o eliminar el atributo data-bs-theme="dark" al elemento html
+    const htmlElement = document.documentElement;
+    if (darkMode) {
+      htmlElement.setAttribute('data-bs-theme', 'light');
+    } else {
+      htmlElement.setAttribute('data-bs-theme', 'dark');
+    }
+  };
 
   return (
     <>
-      <NavigationBar />
+      <NavigationBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Header />
       <Projects />
-      <Skills />
-      <Contact />
+      <Skills darkMode={darkMode} />
+      <Contact darkMode={darkMode} />
       <Footer />
     </>
-  )
-}
+  );
+};
 
 export default App;

@@ -1,26 +1,14 @@
-import React, { useState } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
+import {Navbar, Container, Nav, Button} from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
-const NavigationBar: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
+interface NavigationBarProps {
+  darkMode: boolean;
+  toggleDarkMode: () => void;
+}
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-
-    // Añadir o eliminar el atributo data-bs-theme="dark" al elemento html
-    const htmlElement = document.documentElement;
-    if (darkMode) {
-      htmlElement.removeAttribute('data-bs-theme');
-    } else {
-      htmlElement.setAttribute('data-bs-theme', 'dark');
-    }
-  };
+const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode }) => {
 
   return (
     <Navbar expand="lg" className="p-3 bg-dark" id="home">
