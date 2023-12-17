@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="contact-container mx-auto d-flex flex-column justify-content-center align-items-start rounded shadow-lg gap-4 p-5">
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
-                        <img src="./email.png" alt="Email logo" className="logo rounded-circle"/>
+                        <img src="./email.svg" alt="Email logo" className="logo rounded-circle"/>
                     </div>
                     <div>
                         <p className="mb-0">jjerezbaraona@gmail.com</p>

@@ -28,14 +28,14 @@ const Header: React.FC = () => {
                     <p className="fs-2 mb-2">FullStack Developer.</p>
                     <p className="text-center">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
                     <Button 
-                        className="btn btn-dark shadow-lg" 
+                        className="btn btn-dark border-white shadow-lg"
                         onClick={downloadCV}
                     >
                     Download CV
                     </Button>
                     <div className="d-flex gap-3 mt-3">
-                        <img src="./linkedin.png" alt="LinkedIn profile" className="logo cursor zoom rounded-circle shadow-lg" onClick={openLinkedIn}/>
-                        <img src="./github.png" alt="GitHub profile" className="logo cursor zoom rounded-circle shadow-lg" onClick={openGitHub}/>
+                        <img src="./linkedin.svg" alt="LinkedIn profile" className="logo cursor zoom rounded-circle shadow-lg" onClick={openLinkedIn}/>
+                        <img src="./github.svg" alt="GitHub profile" className="logo cursor zoom rounded-circle shadow-lg" onClick={openGitHub}/>
                     </div>
                 </div>
 
