@@ -6,21 +6,28 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  // Obtener el estado inicial del darkMode desde localStorage o predeterminado como false
+  const initialDarkMode = localStorage.getItem('darkMode') === 'true';
+  const [darkMode, setDarkMode] = useState(initialDarkMode);
+
+  // Actualizar el atributo data-bs-theme al cambiar el estado y almacenar en localStorage
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    if (darkMode) {
+      htmlElement.setAttribute('data-bs-theme', 'dark');
+    } else {
+      htmlElement.setAttribute('data-bs-theme', 'light');
+    }
+
+    // Almacenar el estado en localStorage
+    localStorage.setItem('darkMode', darkMode.toString());
+  }, [darkMode]);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-
-    // Añadir o eliminar el atributo data-bs-theme="dark" al elemento html
-    const htmlElement = document.documentElement;
-    if (darkMode) {
-      htmlElement.setAttribute('data-bs-theme', 'light');
-    } else {
-      htmlElement.setAttribute('data-bs-theme', 'dark');
-    }
   };
 
   return (
