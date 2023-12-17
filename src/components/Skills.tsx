@@ -9,7 +9,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
             <h2 className="display-3 text-center mb-5">Skills</h2>
 
             <div className="mx-md-5">
-            <div className={`skills-container mx-auto d-flex flex-wrap justify-content-center gap-5 rounded shadow-lg p-5 ${darkMode ? 'bg-secondary' : 'bg-primary'}`}>
+            <div className={`skills-container mx-auto d-flex flex-wrap justify-content-center gap-5 rounded shadow-lg p-5 ${darkMode ? 'bg-secondary' : 'bg-light'}`}>
 
                     <article>
                         <div className="d-flex align-items-center gap-2 icon-box">

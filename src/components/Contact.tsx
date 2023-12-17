@@ -7,7 +7,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
         <section className="contact mx-4" id="contact">
             <h2 className="display-3 text-center mb-5">Contact me</h2>
 
-            <div className={`contact-container mx-auto d-flex flex-column justify-content-center align-items-start rounded shadow-lg gap-4 p-5 ${darkMode ? 'bg-secondary' : 'bg-primary'}`}>
+            <div className={`contact-container mx-auto d-flex flex-column justify-content-center align-items-start rounded shadow-lg gap-4 p-5 ${darkMode ? 'bg-secondary' : 'bg-light'}`}>
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
                         <img src="./email.svg" alt="Email logo" className="logo rounded-circle"/>

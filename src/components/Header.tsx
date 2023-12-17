@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                     <p className="fs-2 mb-2">FullStack Developer.</p>
                     <p className="text-center">Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
                     <Button 
-                        className="btn btn-dark border-white shadow-lg"
+                        className="btn btn-dark border-primary shadow-lg"
                         onClick={downloadCV}
                     >
                     Download CV
