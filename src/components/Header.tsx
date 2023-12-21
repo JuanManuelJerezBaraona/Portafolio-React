@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
             <div className="row align-items-center">
 
                 <div className="col-md-5 d-flex justify-content-center mb-3">
-                    <img className="img-fluid perfil rounded-circle shadow-lg" src="/foto-perfil.png" alt="Profile picture" />
+                    <img className="img-fluid perfil rounded-circle shadow-lg" src="/foto2-perfil.png" alt="Profile picture" />
                 </div>
 
                 <div className="col-md-7 d-flex flex-column align-items-center">
