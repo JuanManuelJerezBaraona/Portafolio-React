@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
                 <div className="col-md-8 d-flex flex-column align-items-center">
                     <p className="mb-1 fs-5">Hello! I'm</p>
                     <h1 className="display-3">Juan Manuel Jerez</h1>
-                    <p className={`text-center fs-2 mb-2 ${darkMode ? 'bg-dark' : 'bg-success'}`}>Fullstack Developer</p>
+                    <p className={`text-center fs-2 mb-2 ${darkMode ? 'bg-dark rounded px-3' : 'bg-success rounded px-3'}`}>Fullstack Developer</p>
                     {/* <p className={`text-center ${darkMode ? 'bg-dark p-2' : 'bg-success p-2'}`}>Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p> */}
                     <Button 
                         className="btn btn-dark border-primary shadow-lg"
