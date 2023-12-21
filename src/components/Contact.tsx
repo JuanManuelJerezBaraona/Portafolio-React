@@ -7,13 +7,13 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
         <section className="contact mx-4" id="contact">
             <h2 className="display-3 text-center mb-5">Contact me</h2>
 
-            <div className={`contact-container mx-auto d-flex flex-column justify-content-center align-items-start rounded shadow-lg gap-4 p-5 ${darkMode ? 'bg-secondary' : 'bg-success'}`}>
+            <div className={`contact-container mx-auto d-flex flex-column justify-content-center align-items-start rounded shadow-lg gap-4 p-4 ${darkMode ? 'bg-secondary' : 'bg-success'}`}>
                 <div className="d-flex justify-content-center align-items-center gap-2">
                     <div className="justify-content-center">
                         <img src="./email.svg" alt="Email logo" className="logo rounded-circle"/>
                     </div>
                     <div>
-                        <p className="mb-0">jjerezbaraona@gmail.com</p>
+                        <p className="mb-0 fs-5">jjerezbaraona@gmail.com</p>
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                         <a href="https://wa.me/56983601614" target="_blank"><img src="./whatsapp.svg" alt="WhatsApp logo" className="logo"/></a>
                     </div>
                     <div>
-                        <a href="https://wa.me/56983601614" target="_blank" className="underlined">+569 8360 1614</a>
+                        <a href="https://wa.me/56983601614" target="_blank" className="underlined fs-5">+569 8360 1614</a>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                         <img src="./gps.svg" alt="GPS logo" className="logo rounded-circle"/>
                     </div>
                     <div>
-                        <p className="mb-0">Santiago, Chile</p>
+                        <p className="mb-0 fs-5">Santiago, Chile</p>
                     </div>
                 </div>
             </div>

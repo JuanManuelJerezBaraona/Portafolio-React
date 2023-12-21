@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
                 <div className="col-md-6">
                     <h2 className="text-center fs-1">Super CBD</h2>
-                    <p className="text-center mt-4 mb-0">E-commerce of CBD products with an optimized shopping cart, various payment methods, account creation functionality for customization, and a robust database that supports the comprehensive management of the platform, offering customers a secure and complete shopping experience.</p>
+                    <p className="text-center mt-4 mb-0 fs-5">E-commerce of CBD products with an optimized shopping cart, various payment methods, account creation functionality for customization, and a robust database that supports the comprehensive management of the platform, offering customers a secure and complete shopping experience.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark border-primary shadow-lg"
@@ -42,7 +42,7 @@ const Projects = () => {
                 </div>
                 <div className="col-md-6">
                     <h2 className="text-center fs-1">Controla tu Bolsillo</h2>
-                    <p className="text-center mt-4 mb-0">Built with React-Vite and leveraging Hooks, such as useState and useEffect. Incorporates modal and local storage for an efficient expense management experience. I highlight React skills, state management, and performance optimization in this financial project.</p>
+                    <p className="text-center mt-4 mb-0 fs-5">Built with React-Vite and leveraging Hooks, such as useState and useEffect. Incorporates modal and local storage for an efficient expense management experience. I highlight React skills, state management, and performance optimization in this financial project.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark border-primary shadow-lg"
@@ -60,7 +60,7 @@ const Projects = () => {
                 </div>
                 <div className="col-md-6">
                     <h2 className="text-center fs-1">Cotiza las Cripto</h2>
-                    <p className="text-center mt-4 mb-0">It was developed with React-Vite and Styled Components, integrating two APIs to display real-time cryptocurrency and exchange rate data. It highlights my expertise in modern technologies and efficient financial data management, with an attractive interface and optimal performance.</p>
+                    <p className="text-center mt-4 mb-0 fs-5">It was developed with React-Vite and Styled Components, integrating two APIs to display real-time cryptocurrency and exchange rate data. It highlights my expertise in modern technologies and efficient financial data management, with an attractive interface and optimal performance.</p>
                     <div className="d-flex justify-content-center my-4">
                         <Button
                             className="btn btn-dark border-primary shadow-lg"

@@ -13,13 +13,13 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
   return (
     <Navbar expand="lg" className="p-3 bg-dark" id="home">
       <Container>
-        <Navbar.Brand href="#home" className='text-primary'>Juan Manuel Jerez</Navbar.Brand>
+        <Navbar.Brand href="#home" className='text-primary fs-3'>Juan Manuel Jerez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-dark'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#projects" className='text-primary ms-auto underlined fs-5'>Projects</Nav.Link>
-            <Nav.Link href="#skills" className='text-primary ms-auto underlined fs-5'>Skills</Nav.Link>
-            <Nav.Link href="#contact" className='text-primary ms-auto underlined fs-5'>Contact</Nav.Link>
+            <Nav.Link href="#projects" className='text-primary ms-auto underlined fs-4'>Projects</Nav.Link>
+            <Nav.Link href="#skills" className='text-primary ms-auto underlined fs-4'>Skills</Nav.Link>
+            <Nav.Link href="#contact" className='text-primary ms-auto underlined fs-4'>Contact</Nav.Link>
           </Nav>
           <div className='d-flex justify-content-end'>
             <Button className='btn-dark' onClick={toggleDarkMode}>
