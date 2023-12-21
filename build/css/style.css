@@ -11860,7 +11860,7 @@ body {
 }
 
 .background-header {
-  background-image: url("/background-header.png");
+  background-image: url("/background2-header.png");
   background-size: cover;
   background-position: center;
 }
@@ -11880,7 +11880,7 @@ body {
 }
 
 .header {
-  height: 89svh;
+  height: 100svh;
   padding-top: 2rem;
 }
 @media (min-width: 768px) {
