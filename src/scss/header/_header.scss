@@ -7,6 +7,7 @@ body {
 .background-header{
     background-image: url('/background-header.png');
     background-size: cover;
+    background-position: center;
 }
 
 .perfil {
@@ -23,7 +24,7 @@ body {
 
 .header {
     @include media-breakpoint-up(xs) {
-        height: 92dvh;
+        height: 89dvh;
         padding-top: 1rem;
         // padding-bottom: 9rem;
     }
@@ -32,6 +33,7 @@ body {
         // padding-bottom: 8rem;
     }
     @include media-breakpoint-up(lg) {
+        height: 92dvh;
         padding-top: 12rem;
         // padding-bottom: 14rem;
     }

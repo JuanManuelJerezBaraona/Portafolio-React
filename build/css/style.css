@@ -11862,6 +11862,7 @@ body {
 .background-header {
   background-image: url("/background-header.png");
   background-size: cover;
+  background-position: center;
 }
 
 .perfil {
@@ -11879,7 +11880,7 @@ body {
 }
 
 .header {
-  height: 92dvh;
+  height: 89dvh;
   padding-top: 1rem;
 }
 @media (min-width: 768px) {
@@ -11889,6 +11890,7 @@ body {
 }
 @media (min-width: 992px) {
   .header {
+    height: 92dvh;
     padding-top: 12rem;
   }
 }
