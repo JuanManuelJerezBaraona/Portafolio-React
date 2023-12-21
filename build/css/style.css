@@ -11891,6 +11891,12 @@ body {
 @media (min-width: 992px) {
   .header {
     height: 92lvh;
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    height: 92lvh;
     padding-top: 12rem;
   }
 }

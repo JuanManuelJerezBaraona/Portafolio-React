@@ -34,6 +34,11 @@ body {
     }
     @include media-breakpoint-up(lg) {
         height: 92lvh;
+        padding-top: 5rem;
+        // padding-bottom: 14rem;
+    }
+    @include media-breakpoint-up(xl) {
+        height: 92lvh;
         padding-top: 12rem;
         // padding-bottom: 14rem;
     }
