@@ -4,7 +4,7 @@ interface HeaderProps {
     darkMode: boolean;
 }
 
-const Header: React.FC<HeaderProps> = ({ darkMode }) => {
+const Header: React.FC<HeaderProps> = ({}) => {
 
     const downloadCV = () => {
         window.open('./CV-Juan-Manuel-Jerez-Baraona.pdf');
