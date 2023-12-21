@@ -22,11 +22,11 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
         <header className="container-fluid header background-header">
             <div className="row align-items-center">
 
-                <div className="col-md-4 d-flex justify-content-center mb-3">
+                <div className="col-md-5 d-flex justify-content-center mb-3">
                     <img className="img-fluid perfil rounded-circle shadow-lg" src="/foto-perfil.png" alt="Profile picture" />
                 </div>
 
-                <div className="col-md-8 d-flex flex-column align-items-center">
+                <div className="col-md-7 d-flex flex-column align-items-center">
                     <p className="mb-1 fs-5">Hello! I'm</p>
                     <h1 className="display-3">Juan Manuel Jerez</h1>
                     <p className={`text-center fs-2 mb-2 ${darkMode ? 'bg-dark rounded px-3' : 'bg-success rounded px-3'}`}>Fullstack Developer</p>
