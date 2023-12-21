@@ -24,7 +24,7 @@ body {
 
 .header {
     @include media-breakpoint-up(xs) {
-        height: 89dvh;
+        height: 89svh;
         padding-top: 1rem;
         // padding-bottom: 9rem;
     }
@@ -33,7 +33,7 @@ body {
         // padding-bottom: 8rem;
     }
     @include media-breakpoint-up(lg) {
-        height: 92dvh;
+        height: 92lvh;
         padding-top: 12rem;
         // padding-bottom: 14rem;
     }
