@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode }) => {
                     <p className="mb-1">Hello! I'm</p>
                     <h1 className="display-3">Juan Manuel Jerez</h1>
                     <p className="fs-2 mb-2">FullStack Developer.</p>
-                    <p className={`text-center ${darkMode ? 'bg-dark' : 'bg-success'}`}>Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p>
+                    {/* <p className={`text-center ${darkMode ? 'bg-dark p-2' : 'bg-success p-2'}`}>Passionate about programming and science. Committed to excellence in web development. Always looking for new challenges and learning opportunities.</p> */}
                     <Button 
                         className="btn btn-dark border-primary shadow-lg"
                         onClick={downloadCV}
