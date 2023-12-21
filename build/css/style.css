@@ -11859,6 +11859,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.background-header {
+  background-image: url("/background-header.png");
+  background-size: cover;
+}
+
 .perfil {
   width: 13rem;
 }

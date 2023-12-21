@@ -19,14 +19,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
     };
 
     return (
-        <header 
-            className="container-fluid header"
-            style={{ 
-                backgroundImage: "url('/background-header.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
-        >
+        <header className="container-fluid header background-header">
             <div className="row align-items-center">
 
                 <div className="col-md-4 d-flex justify-content-center mb-3">

@@ -4,6 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.background-header{
+    background-image: url('/background-header.png');
+    background-size: cover;
+}
+
 .perfil {
     @include media-breakpoint-up(xs) {
         width: 13rem;
