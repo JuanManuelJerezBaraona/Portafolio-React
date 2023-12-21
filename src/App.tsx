@@ -33,7 +33,7 @@ const App: React.FC = () => {
   return (
     <>
       <NavigationBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Header />
+      <Header darkMode={darkMode} />
       <Projects />
       <Skills darkMode={darkMode} />
       <Contact darkMode={darkMode} />
