@@ -52,6 +52,7 @@ body {
 
 .zoom {
     transition: transform 0.2s ease-in-out;
+    border: 1px solid #DEE2E6;
 }
 .zoom:hover {
     transform: scale(1.2);
