@@ -13,7 +13,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
   return (
     <Navbar expand="lg" className={`p-3 ${darkMode ? 'bg-dark' : 'bg-success'}`} id="home">
       <Container>
-        <Navbar.Brand href="#home" className='fs-3'>Juan Manuel Jerez</Navbar.Brand>
+        <Navbar.Brand href="" className='fs-3'>Juan Manuel Jerez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className=''/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
