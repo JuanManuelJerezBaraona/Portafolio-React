@@ -11866,8 +11866,6 @@ body {
 }
 
 .perfil {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
   width: 13rem;
 }
 @media (min-width: 768px) {
@@ -11879,10 +11877,6 @@ body {
   .perfil {
     width: 25rem;
   }
-}
-
-.perfil:hover {
-  filter: none;
 }
 
 .header {

@@ -11,9 +11,6 @@ body {
 }
 
 .perfil {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-    
     @include media-breakpoint-up(xs) {
         width: 13rem;
     }
@@ -23,9 +20,6 @@ body {
     @include media-breakpoint-up(lg) {
         width: 25rem;
     }
-}
-.perfil:hover {
-    filter: none;
 }
 
 .header {
