@@ -11860,12 +11860,14 @@ body {
 }
 
 .background-header {
-  background-image: url("/background2-header.png");
+  background-image: url("/background3-header.png");
   background-size: cover;
   background-position: center;
 }
 
 .perfil {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
   width: 13rem;
 }
 @media (min-width: 768px) {
@@ -11879,9 +11881,13 @@ body {
   }
 }
 
+.perfil:hover {
+  filter: none;
+}
+
 .header {
   height: 100svh;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 @media (min-width: 768px) {
   .header {
@@ -11954,7 +11960,7 @@ body {
 
 .contact {
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 @media (min-width: 768px) {
   .contact {
