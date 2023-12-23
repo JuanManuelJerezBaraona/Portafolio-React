@@ -10,13 +10,13 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
         window.open('./CV-Juan-Manuel-Jerez-Baraona.pdf');
     };
 
-    const openLinkedIn = () => {
-        window.open('https://www.linkedin.com/in/juan-manuel-jerez-baraona-b54486274/');
-    };
+    // const openLinkedIn = () => {
+    //     window.open('https://www.linkedin.com/in/juan-manuel-jerez-baraona-b54486274/');
+    // };
 
-    const openGitHub = () => {
-        window.open('https://github.com/JuanManuelJerezBaraona');
-    };
+    // const openGitHub = () => {
+    //     window.open('https://github.com/JuanManuelJerezBaraona');
+    // };
 
     return (
         <>
