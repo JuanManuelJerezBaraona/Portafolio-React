@@ -8,7 +8,7 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
         <>
             <section className="container-xl skills mt-5 border-bottom" id="skills">
 
-                <h2 className="display-3 text-center mb-5">Skills</h2>
+                <h2 className="display-4 text-center mb-5">Skills</h2>
 
                 <div className="mx-md-5">
                 <div className={`skills-container mx-auto d-flex flex-wrap justify-content-center gap-5 rounded shadow-lg p-5 ${darkMode ? 'bg-secondary' : 'bg-success'}`}>

@@ -18,7 +18,7 @@ const Projects = () => {
         <>
             <main className="container-xl projects py-4 py-lg-5 border-bottom" id="projects">
 
-                <h2 className="display-3 text-center mb-4">Projects</h2>
+                <h2 className="display-4 text-center mb-4">Projects</h2>
 
                 <div className="row align-items-center pb-5 mb-5 flex-md-row border-bottom">
                     <div className="col-md-6">
@@ -32,7 +32,7 @@ const Projects = () => {
                                 className="btn btn-dark rounded-pill border-primary shadow-lg"
                                 onClick={openSuperCBD}
                             >
-                                See more
+                                See More
                             </Button>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                                 className="btn btn-dark rounded-pill border-primary shadow-lg"
                                 onClick={openControlaTuBolsillo}
                             >
-                                See more
+                                See More
                             </Button>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Projects = () => {
                                 className="btn btn-dark rounded-pill border-primary shadow-lg"
                                 onClick={openCotizaLasCripto}
                             >
-                                See more
+                                See More
                             </Button>
                         </div>
                     </div>

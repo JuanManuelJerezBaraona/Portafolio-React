@@ -24,20 +24,21 @@ body {
 
 .header {
     @include media-breakpoint-up(xs) {
-        height: 100svh;
-        padding-top: 1rem;
+        height: 91svh;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
     }
     @include media-breakpoint-up(md) {
         height: 93svh;
         padding-top: 15rem;
+        // padding-bottom: 10rem;
     }
     @include media-breakpoint-up(lg) {
-        height: 100svh;
-        padding-top: 5rem;
+        padding-top: 10rem;
     }
     @include media-breakpoint-up(xl) {
-        height: 93svh;
-        padding-top: 5rem;
+        padding-top: 15rem;
+        // padding-bottom: 10rem;
     }
 }
 
@@ -56,4 +57,31 @@ body {
 }
 .zoom:hover {
     transform: scale(1.2);
+}
+
+
+// CSS Property: animation-timeline
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+
 }
