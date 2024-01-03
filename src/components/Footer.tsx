@@ -6,7 +6,7 @@ const Footer = () => {
             <a className="text-primary underlined fs-4" href="#projects">Projects</a>
             <a className="text-primary underlined fs-4" href="#skills">Skills</a>
         </nav>
-        <p className="mb-3 text-primary text-center">Copyright &#169; 2023 Juan Manuel Jerez Baraona. All rights reserved.</p>
+        <p className="mb-3 text-primary text-center">Copyright &#169; 2024 Juan Manuel Jerez Baraona. All rights reserved.</p>
     </footer>
   )
 }

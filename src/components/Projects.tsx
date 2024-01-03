@@ -6,6 +6,10 @@ const Projects = () => {
         window.open('https://www.supercbd.cl/');
     };
 
+    const openCalendarioApp = () => {
+        window.open('https://calendario-aplicacion.netlify.app/');
+    };
+
     const openControlaTuBolsillo = () => {
         window.open('https://controlatubolsillo.netlify.app/');
     };
@@ -40,6 +44,24 @@ const Projects = () => {
 
                 <div className="row align-items-center pb-5 my-5 flex-md-row-reverse border-bottom">
                     <div className="col-md-6">
+                        <img className="img-fluid" src="/calendarapp.png" alt="Calendario App image" />
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="text-center fs-1">Calendario App</h2>
+                        <p className="text-center mt-4 mb-0 fs-5">I built a responsive calendar app using React Vite, MongoDB, Node.js, and Express. It features user registration, login, CRUD operations, and showcases my skills in full-stack web development, React, and database management.</p>
+                        <div className="d-flex justify-content-center my-4">
+                            <Button
+                                className="btn btn-dark rounded-pill border-primary shadow-lg"
+                                onClick={openCalendarioApp}
+                            >
+                                See More
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row align-items-center pb-5 my-5 flex-md-row border-bottom">
+                    <div className="col-md-6">
                         <img className="img-fluid" src="/controlatubolsillo.png" alt="Controla tu Bolsillo image" />
                     </div>
                     <div className="col-md-6">
@@ -56,7 +78,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="row align-items-center my-4 flex-md-row">
+                <div className="row align-items-center my-4 flex-md-row-reverse">
                     <div className="col-md-6">
                         <img className="img-fluid" src="/cotizalascripto.png" alt="Cotiza las Cripto image" />
                     </div>
