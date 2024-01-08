@@ -30,3 +30,13 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
 }
 
 export default NavigationBar;
+
+{/* <Navbar.Brand href="">
+    <img
+        src="/path-to-your-logo.png"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="Logo"
+    />
+</Navbar.Brand> */}
