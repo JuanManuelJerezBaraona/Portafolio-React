@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
                         <h1 className={`display-1 ${darkMode ? 'bg-dark rounded-pill px-3' : 'bg-success rounded-pill px-3'}`}>Juan Jerez</h1>
                         <p className={`text-center fs-3 mb-2 ${darkMode ? 'bg-dark rounded-pill px-3' : 'bg-success rounded-pill px-3'}`}>Fullstack Developer</p>
                         <Button 
-                            className="btn btn-dark rounded-pill border-primary shadow-lg"
+                            className="btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
                             onClick={downloadCV}
                         >
                         Download CV

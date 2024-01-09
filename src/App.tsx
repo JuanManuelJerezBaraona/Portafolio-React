@@ -1,11 +1,14 @@
+// Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
+
+// Components
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Form from './components/Form';
 import Footer from './components/Footer';
 
 import { useState, useEffect } from 'react';
@@ -39,7 +42,7 @@ const App: React.FC = () => {
       <About />
       <Projects />
       <Skills darkMode={darkMode} />
-      <Contact darkMode={darkMode} />
+      <Form />
       <Footer />
     </>
   );

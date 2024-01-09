@@ -33,7 +33,7 @@ const Projects = () => {
                         <p className="w-75 mx-auto mt-4 mb-0 fs-5">E-commerce of CBD products with an optimized shopping cart, various payment methods, account creation functionality for customization, and a robust database that supports the comprehensive management of the platform, offering customers a secure and complete shopping experience.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
-                                className="btn btn-dark rounded-pill border-primary shadow-lg"
+                                className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
                                 onClick={openSuperCBD}
                             >
                                 See More
@@ -51,7 +51,7 @@ const Projects = () => {
                         <p className="w-75 mx-auto mt-4 mb-0 fs-5">I built a responsive calendar app using React Vite, MongoDB, Node.js, and Express. It features user registration, login, CRUD operations, and showcases my skills in full-stack web development, React, and database management.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
-                                className="btn btn-dark rounded-pill border-primary shadow-lg"
+                                className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
                                 onClick={openCalendarioApp}
                             >
                                 See More
@@ -69,7 +69,7 @@ const Projects = () => {
                         <p className="w-75 mx-auto mt-4 mb-0 fs-5">Built with React-Vite and leveraging Hooks, such as useState and useEffect. Incorporates modal and local storage for an efficient expense management experience. I highlight React skills, state management, and performance optimization in this financial project.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
-                                className="btn btn-dark rounded-pill border-primary shadow-lg"
+                                className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
                                 onClick={openControlaTuBolsillo}
                             >
                                 See More
@@ -87,7 +87,7 @@ const Projects = () => {
                         <p className="w-75 mx-auto mt-4 mb-0 fs-5">It was developed with React-Vite and Styled Components, integrating two APIs to display real-time cryptocurrency and exchange rate data. It highlights my expertise in modern technologies and efficient financial data management, with an attractive interface and optimal performance.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
-                                className="btn btn-dark rounded-pill border-primary shadow-lg"
+                                className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
                                 onClick={openCotizaLasCripto}
                             >
                                 See More

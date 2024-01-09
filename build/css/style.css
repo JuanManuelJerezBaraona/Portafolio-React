@@ -11971,19 +11971,16 @@ img {
 }
 
 .contact {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
 }
 @media (min-width: 768px) {
   .contact {
     padding-top: 4rem;
-    padding-bottom: 10rem;
   }
 }
 @media (min-width: 992px) {
   .contact {
-    padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
   }
 }
 
