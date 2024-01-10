@@ -34,10 +34,6 @@ body {
     @include media-breakpoint-up(lg) {
         padding-top: 10rem;
     }
-    @include media-breakpoint-up(xl) {
-        padding-top: 10rem;
-        // padding-bottom: 10rem;
-    }
 }
 
 .logo {

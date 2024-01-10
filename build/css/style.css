@@ -11894,11 +11894,6 @@ body {
     padding-top: 10rem;
   }
 }
-@media (min-width: 1200px) {
-  .header {
-    padding-top: 10rem;
-  }
-}
 
 .logo {
   width: 2rem;
