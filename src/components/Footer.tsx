@@ -8,9 +8,9 @@ const Footer = () => {
                 <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#skills"><i className="bi bi-floppy"></i> Skills</a></div>
             </nav>
             <nav className="col-12 col-md-6 d-flex flex-column border-bottom pb-4 gap-2 mb-4 my-lg-3">
-                <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#home"><i className="bi bi-envelope-at"></i> jjerezbaraona@gmail.com</a></div>
-                <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#projects"><i className="bi bi-whatsapp"></i> +569 8360 1614</a></div>
-                <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#projects"><i className="bi bi-geo-alt"></i> Santiago, Chile</a></div>
+                <div className="w-75 mx-auto text-primary fs-5"><i className="bi bi-envelope-at"></i> jjerezbaraona@gmail.com</div>
+                <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="https://wa.me/56983601614" target="_blank"><i className="bi bi-whatsapp"></i> +569 8360 1614</a></div>
+                <div className="w-75 mx-auto text-primary fs-5"><i className="bi bi-geo-alt"></i> Santiago, Chile</div>
                 <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#skills"><i className="bi bi-linkedin"></i> LinkedIn</a></div>
                 <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#skills"><i className="bi bi-github"></i> GitHub</a></div>
             </nav>
