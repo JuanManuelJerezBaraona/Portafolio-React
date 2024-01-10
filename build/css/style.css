@@ -11880,14 +11880,13 @@ body {
 }
 
 .header {
-  height: 91svh;
   padding-top: 1.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 @media (min-width: 768px) {
   .header {
-    height: 93svh;
     padding-top: 15rem;
+    padding-bottom: 10rem;
   }
 }
 @media (min-width: 992px) {
