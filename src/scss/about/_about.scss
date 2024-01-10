@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.about {
+    @include media-breakpoint-up(xs) {
+
+    }
+    @include media-breakpoint-up(md) {
+
+    }
+    @include media-breakpoint-up(lg) {
+
+    }
+}

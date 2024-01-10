@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-        <section className="container-fluid about bg-black pb-5 mb-5">
+        <section className="about container-fluid about bg-black pb-5 mb-5">
             <div className="row align-items-center pb-5">
 
                 <div className="col-md-12">

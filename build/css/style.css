@@ -11875,7 +11875,7 @@ body {
 }
 @media (min-width: 992px) {
   .perfil {
-    width: 25rem;
+    width: 20rem;
   }
 }
 
@@ -11892,6 +11892,7 @@ body {
 @media (min-width: 992px) {
   .header {
     padding-top: 10rem;
+    padding-bottom: 15rem;
   }
 }
 
