@@ -4,12 +4,13 @@ const Footer = () => {
         <footer className="bg-dark p-3">
             <div className="row">
                 <nav className="col-12 col-md-6 d-flex flex-column border-bottom pb-4 gap-2 mb-4 my-lg-3">
-                    <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#home"><i className="bi bi-house"></i> Home</a></div>
-                    <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#projects"><i className="bi bi-person-workspace"></i> Projects</a></div>
-                    <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#skills"><i className="bi bi-floppy"></i> Skills</a></div>
+                    <h4 className="w-75 mx-auto text-primary">Sections</h4>
+                    <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#home">Home</a></div>
+                    <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#projects">Projects</a></div>
+                    <div className="w-75 mx-auto"><a className="text-primary underlined fs-5" href="#skills">Skills</a></div>
                 </nav>
                 <nav className="col-12 col-md-6 d-flex flex-column border-bottom pb-4 gap-2 mb-4 my-lg-3">
-
+                    <h4 className="w-75 mx-auto text-primary">Contact</h4>
                     <div className="w-75 mx-auto text-primary fs-5">
                         <i className="bi bi-envelope-at"></i> jjerezbaraona@gmail.com
                     </div> 
