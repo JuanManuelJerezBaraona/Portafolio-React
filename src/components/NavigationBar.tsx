@@ -19,7 +19,11 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
             <Nav.Link href="#contact" className='ms-auto underlined fs-4'>Contact</Nav.Link>
           </Nav>
           <div className='d-flex justify-content-end'>
-            <Button className={`${darkMode ? 'btn-dark' : 'btn-success'}`} onClick={toggleDarkMode}>
+            <Button 
+              className={`${darkMode ? 'btn-dark' : 'btn-success'}`} 
+              onClick={toggleDarkMode}
+              aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+            >
               <i className={`bi ${darkMode ? 'bi-sun-fill' : 'bi-moon-stars-fill'}`}></i>
             </Button>
           </div>
