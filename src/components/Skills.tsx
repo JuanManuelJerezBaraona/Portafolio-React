@@ -71,13 +71,6 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
 
                         <article>
                             <div className="d-flex align-items-center gap-2 icon-box">
-                                <img className="icon" src="/react.svg" alt="Icon of React Native" />
-                                <p className="mb-0 fs-5 fw-bold">React Native</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <div className="d-flex align-items-center gap-2 icon-box">
                                 <img className="icon" src="/git.svg" alt="Icon of Git" />
                                 <p className="mb-0 fs-5 fw-bold">Git</p>
                             </div>
@@ -87,6 +80,13 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
                             <div className="d-flex align-items-center gap-2 icon-box">
                                 <img className="icon" src="/postgres.svg" alt="Icon of PostgreSQL" />
                                 <p className="mb-0 fs-5 fw-bold">PostgreSQL</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div className="d-flex align-items-center gap-2 icon-box">
+                                <img className="icon" src="/mongo.svg" alt="Icon of MongoDB" />
+                                <p className="mb-0 fs-5 fw-bold">MongoDB</p>
                             </div>
                         </article>
 
