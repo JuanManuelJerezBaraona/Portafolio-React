@@ -17,9 +17,9 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#projects" onClick={() => setNavExpanded(false)} className='me-auto underlined fs-4'>Projects</Nav.Link>
-            <Nav.Link href="#skills" onClick={() => setNavExpanded(false)} className='me-auto underlined fs-4'>Skills</Nav.Link>
-            <Nav.Link href="#contact" onClick={() => setNavExpanded(false)} className='me-auto underlined fs-4'>Contact</Nav.Link>
+            <Nav.Link onClick={() => setNavExpanded(false)} href="#projects" className='me-auto underlined fs-4'>Projects</Nav.Link>
+            <Nav.Link onClick={() => setNavExpanded(false)} href="#skills" className='me-auto underlined fs-4'>Skills</Nav.Link>
+            <Nav.Link onClick={() => setNavExpanded(false)} href="#contact" className='me-auto underlined fs-4'>Contact</Nav.Link>
           </Nav>
           <div className='d-flex justify-content-start'>
             <Button 
