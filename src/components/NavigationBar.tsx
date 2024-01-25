@@ -1,4 +1,4 @@
-import {Navbar, Container, Nav, Button} from 'react-bootstrap';
+import {Navbar, Container, Nav} from 'react-bootstrap';
 
 interface NavigationBarProps {
     darkMode: boolean;
@@ -19,13 +19,13 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
                     <Nav.Link href="#contact" className='me-auto underlined fs-4'>Contact</Nav.Link>
                 </Nav>
                 <div className='d-flex justify-content-start'>
-                    <Button 
-                    className={`${darkMode ? 'btn-dark' : 'btn-success'}`} 
+                <Nav.Link 
                     onClick={toggleDarkMode}
                     aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-                    >
+                    className='me-auto px-0 px-lg-3 pt-2 pb-1 underlined fs-4'
+                >
                     <i className={`bi ${darkMode ? 'bi-sun-fill' : 'bi-moon-stars-fill'}`}></i>
-                    </Button>
+                </Nav.Link>
                 </div>
                 </Navbar.Collapse>
             </Container>
