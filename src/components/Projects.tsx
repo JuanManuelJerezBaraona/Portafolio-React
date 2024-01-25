@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center fs-1">Super CBD</h2>
-                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">E-commerce of CBD products with an optimized shopping cart, various payment methods, account creation functionality for customization, and a robust database that supports the comprehensive management of the platform, offering customers a secure and complete shopping experience.</p>
+                        <p className="w-75 mx-auto mt-4 mb-0 fs-5"><strong>E-commerce</strong> of CBD products with an optimized <strong>shopping cart</strong>, various <strong>payment methods</strong>, <strong>account creation</strong> functionality for customization, and a robust <strong>database</strong> that supports the comprehensive management of the platform, offering customers a secure and complete shopping experience.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
                                 className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center fs-1">Calendario App</h2>
-                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">I built a responsive calendar app using React Vite, MongoDB, Node.js, and Express. It features user registration, login, CRUD operations, and showcases my skills in full-stack web development, React, and database management.</p>
+                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">I built a <strong>responsive</strong> calendar app using <strong>React Vite</strong>, <strong>MongoDB</strong>, <strong>Node.js</strong>, and <strong>Express</strong>. It features user <strong>registration</strong>, <strong>login</strong>, <strong>CRUD</strong> operations, and showcases my skills in <strong>full-stack web development</strong>, React, and database management.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
                                 className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
@@ -66,7 +66,7 @@ const Projects = () => {
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center fs-1">Controla tu Bolsillo</h2>
-                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">Built with React-Vite and leveraging Hooks, such as useState and useEffect. Incorporates modal and local storage for an efficient expense management experience. I highlight React skills, state management, and performance optimization in this financial project.</p>
+                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">Built with <strong>React-Vite</strong> and leveraging Hooks, such as <strong>useState</strong> and <strong>useEffect</strong>. Incorporates <strong>modal</strong> and <strong>local storage</strong> for an efficient expense management experience. I highlight React skills, state management, and performance optimization in this financial project.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
                                 className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
@@ -84,7 +84,7 @@ const Projects = () => {
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center fs-1">Cotiza las Cripto</h2>
-                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">It was developed with React-Vite and Styled Components, integrating two APIs to display real-time cryptocurrency and exchange rate data. It highlights my expertise in modern technologies and efficient financial data management, with an attractive interface and optimal performance.</p>
+                        <p className="w-75 mx-auto mt-4 mb-0 fs-5">It was developed with <strong>React-Vite</strong> and <strong>Styled Components</strong>, integrating <strong>two APIs</strong> to display <strong>real-time cryptocurrency</strong> and exchange rate data. It highlights my expertise in modern technologies and efficient financial data management, with an attractive interface and optimal performance.</p>
                         <div className="d-flex justify-content-center my-4">
                             <Button
                                 className="text-uppercase w-75 btn btn-dark btn-lg rounded-pill border-primary shadow-lg fw-bold"
