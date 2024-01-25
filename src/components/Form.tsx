@@ -87,7 +87,7 @@ const Form = () => {
 
     return (
         <>
-            <section className='container-xl contact' id="contact">
+            <section className='container-fluid contact border-bottom' id="contact">
 
                 <div className='row align-items-center mb-4'>
                     <div className='col-md-12'>
@@ -98,7 +98,7 @@ const Form = () => {
 
                 <div className='row align-items-center mb-5'>
                     <div className='col-12'>
-                        <form className='col-10 col-md-6 col-lg-4 mx-auto' ref={form} onSubmit={handleSubmit}>
+                        <form className='col-10 col-md-6 col-lg-3 mx-auto' ref={form} onSubmit={handleSubmit}>
                             <div className='mb-3'>
                                 <label htmlFor="name" className='form-label fs-5'>Name</label>
                                 <input 
