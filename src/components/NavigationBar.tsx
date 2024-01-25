@@ -10,15 +10,15 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode 
   return (
     <Navbar expand="lg" className={`p-3 ${darkMode ? 'bg-dark' : 'bg-success'}`} id="home">
       <Container>
-        <Navbar.Brand href="" className='fs-3'>Juan Jerez</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className=''/>
+        <Navbar.Brand href="" className='fs-3 fw-bold'>Juan Jerez</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#projects" className='ms-auto underlined fs-4'>Projects</Nav.Link>
-            <Nav.Link href="#skills" className='ms-auto underlined fs-4'>Skills</Nav.Link>
-            <Nav.Link href="#contact" className='ms-auto underlined fs-4'>Contact</Nav.Link>
+            <Nav.Link href="#projects" className='me-auto underlined fs-4'>Projects</Nav.Link>
+            <Nav.Link href="#skills" className='me-auto underlined fs-4'>Skills</Nav.Link>
+            <Nav.Link href="#contact" className='me-auto underlined fs-4'>Contact</Nav.Link>
           </Nav>
-          <div className='d-flex justify-content-end'>
+          <div className='d-flex justify-content-start'>
             <Button 
               className={`${darkMode ? 'btn-dark' : 'btn-success'}`} 
               onClick={toggleDarkMode}
