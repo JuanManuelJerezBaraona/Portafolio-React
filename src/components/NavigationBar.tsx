@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import {Navbar, Container, Nav, Button} from 'react-bootstrap';
 
 interface NavigationBarProps {
@@ -7,16 +8,18 @@ interface NavigationBarProps {
 
 const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode }) => {
 
+  const [navExpanded, setNavExpanded] = useState(false);
+
   return (
-    <Navbar expand="lg" className={`p-3 ${darkMode ? 'bg-dark' : 'bg-success'}`} id="home">
+    <Navbar expand="lg" expanded={navExpanded} onToggle={setNavExpanded} className={`p-3 ${darkMode ? 'bg-dark' : 'bg-success'}`} id="home">
       <Container>
         <Navbar.Brand href="" className='fs-3 fw-bold'>Juan Jerez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#projects" className='me-auto underlined fs-4'>Projects</Nav.Link>
-            <Nav.Link href="#skills" className='me-auto underlined fs-4'>Skills</Nav.Link>
-            <Nav.Link href="#contact" className='me-auto underlined fs-4'>Contact</Nav.Link>
+            <Nav.Link href="#projects" onClick={() => setNavExpanded(false)} className='me-auto underlined fs-4'>Projects</Nav.Link>
+            <Nav.Link href="#skills" onClick={() => setNavExpanded(false)} className='me-auto underlined fs-4'>Skills</Nav.Link>
+            <Nav.Link href="#contact" onClick={() => setNavExpanded(false)} className='me-auto underlined fs-4'>Contact</Nav.Link>
           </Nav>
           <div className='d-flex justify-content-start'>
             <Button 
