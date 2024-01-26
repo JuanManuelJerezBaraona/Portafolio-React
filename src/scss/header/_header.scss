@@ -79,18 +79,22 @@ img {
 
 }
 
-// Animation tracking-in-expand
-.text-focus-in {
-	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+// Profile Picture Animation
+.slide-in-blurred-top {
+	animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
-@keyframes text-focus-in {
+@keyframes slide-in-blurred-top {
     0% {
-      filter: blur(12px);
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform-origin: 50% 0%;
+      filter: blur(40px);
       opacity: 0;
     }
     100% {
-      filter: blur(0px);
+      transform: translateY(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
       opacity: 1;
     }
 }
@@ -100,4 +104,33 @@ img {
     position: relative;
     border-bottom-left-radius: 50% 5%;
     border-bottom-right-radius: 50% 5%;
+}
+
+// Button Animation
+.heartbeat {
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+    from {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    10% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    17% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    33% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    45% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
 }
