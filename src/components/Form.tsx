@@ -106,6 +106,7 @@ const Form = () => {
                                     className='form-control'
                                     name="name"
                                     id="name"
+                                    autoComplete="name"
                                     value={formData.name}
                                     onChange={handleChange}
                                 />
@@ -118,7 +119,7 @@ const Form = () => {
                                     className='form-control'
                                     name='email'
                                     id="email"
-                                    autoComplete="off"
+                                    autoComplete="email"
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
