@@ -55,7 +55,6 @@ body {
 }
 
 // CSS Property: animation-timeline
-
 @keyframes show {
     from {
         opacity: 0;
@@ -78,4 +77,27 @@ img {
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 
+}
+
+// Animation tracking-in-expand
+.text-focus-in {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+}
+
+// Curved Section
+.curved {
+    position: relative;
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
 }

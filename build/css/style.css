@@ -11956,6 +11956,26 @@ img {
   animation-fill-mode: both;
 }
 
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.curved {
+  position: relative;
+  border-bottom-left-radius: 50% 5%;
+  border-bottom-right-radius: 50% 5%;
+}
+
 .about {
   padding-top: 3rem;
 }

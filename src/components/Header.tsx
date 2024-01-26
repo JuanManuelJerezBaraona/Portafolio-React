@@ -12,11 +12,11 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
 
     return (
         <>
-            <header className="container-fluid header background-header">
+            <header className="container-fluid header background-header curved">
                 <div className="row align-items-center ">
 
                     <div className="col-md-6 col-lg-6 d-flex justify-content-center mb-3">
-                        <img className="img-fluid perfil rounded-circle shadow-lg" src="/foto2-perfil.png" alt="Profile picture" />
+                        <img className="img-fluid perfil rounded-circle shadow-lg text-focus-in" src="/foto2-perfil.png" alt="Profile picture" />
                     </div>
 
                     <div className="col-md-6 col-lg-6 d-flex flex-column align-items-center">
