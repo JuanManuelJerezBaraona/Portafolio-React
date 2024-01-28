@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({darkMode}) => {
                             className={`btn btn-lg rounded-pill shadow-lg fw-bold heartbeat ${darkMode ? 'btn-dark border-primary' : 'btn-light border-dark'}`}
                             onClick={downloadCV}
                         >
-                        Download CV
+                        <i className="bi bi-download"></i> DOWNLOAD CV
                         </Button>
                     </div>
 
