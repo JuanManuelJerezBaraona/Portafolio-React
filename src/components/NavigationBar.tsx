@@ -8,7 +8,7 @@ interface NavigationBarProps {
 const NavigationBar: React.FC<NavigationBarProps> = ({ darkMode, toggleDarkMode }) => {
 
     return (
-        <Navbar expand="lg" className={`${darkMode ? 'bg-dark' : 'bg-success'}`} id="home">
+        <Navbar expand="lg" className={`p-3 ${darkMode ? 'bg-dark' : 'bg-success'}`} id="home">
             <Container>
                 <Navbar.Brand href="" className='fs-4 fw-bold'>Juan Jerez</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
