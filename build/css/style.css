@@ -11916,7 +11916,13 @@ body {
 @media (min-width: 992px) {
   .header {
     padding-top: 10rem;
-    padding-bottom: 15rem;
+    padding-bottom: 14rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 }
 

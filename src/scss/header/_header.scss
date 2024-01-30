@@ -23,17 +23,25 @@ body {
 }
 
 .header {
+    // xs: <576px
     @include media-breakpoint-up(xs) {
         padding-top: 1.5rem;
         padding-bottom: 3rem;
     }
+    // md: ≥768px
     @include media-breakpoint-up(md) {
         padding-top: 15rem;
         padding-bottom: 10rem;
     }
+    // lg: ≥992px
     @include media-breakpoint-up(lg) {
         padding-top: 10rem;
-        padding-bottom: 15rem;
+        padding-bottom: 14rem;
+    }
+    // xl: ≥1200px
+    @include media-breakpoint-up(xl) {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 }
 
