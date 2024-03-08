@@ -53,7 +53,7 @@ const Footer = () => {
 
                 </nav>
             </div>
-            <p className="my-2 text-primary text-center">Copyright &#169; 2024. Juan Manuel Jerez Baraona. All rights reserved.</p>
+            <p className="my-2 text-primary text-center">Copyright &#169; 2024. Juan Jerez. All rights reserved.</p>
         </footer>
     )
 }
